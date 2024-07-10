@@ -1,0 +1,274 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* start of navbar */
+.navbar{
+    background-color: #F0FFF0 !important;
+    
+}
+.nav-item{
+    margin-right: 25px;
+}
+.nav-link{
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Poppins";
+}
+.nav-link:hover{
+    color:rgb(252, 71, 71) ;
+}
+.navbar-brand{
+    width: 198.07px;
+}
+.btn1{
+    background-color:  #21B573;
+    border: 1px solid #21B573 ;
+    border-radius: 12px;
+    color: white !important;
+}
+.btn1:hover{
+    background-color: rgb(252, 71, 71);
+    border: 1px solid rgb(252, 71, 71);
+    color: white;
+}
+
+/* end of navbar */
+/* start of learn */
+#learn{
+    background: #F0FFF0;
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+ }
+ #learn .img{
+     width:554px ;
+     height:346px ;
+ }
+
+ #learn h5{
+     font-size: 16px;
+     line-height: 24px;
+     color: #FD511A;
+ }
+ #learn h1{
+    font-size: 48px;
+    line-height: 70px;
+    color: black;
+    font-weight: 700;
+}
+#learn span{
+    color: #21B573;
+    font-weight: 700;
+}
+#learn p{
+    font-size: 16px;
+    line-height: 33px;
+    color: #6C6B6B;
+
+}
+#learn .btn2{
+    padding: 12px 36px 12px 36px;
+    background: #21B573;
+    color: white;
+    border: 1px solid #21B573 ;
+    border-radius: 33px;
+
+}
+
+
+/* end of learn */
+/* start of topic */
+#topic .imga1{
+    margin-top: 30px;
+    width: 66px;
+    height: 85px;
+}
+#topic .imga2{
+
+   margin-top: 30px;
+    width: 66px;
+    height: 85px;
+}
+#topic .imga3{
+    margin-top: 30px;
+    width: 66px;
+    height: 85px;
+}
+#topic .imga4{
+
+    margin-top: 30px;
+    width: 66px;
+    height: 85px;
+}
+#topic .items{
+    background-color: rgb(248, 255, 251);
+    padding: 40px 20px;
+    margin: 0px 15px;
+    border-radius: 10px;
+}
+#topic .items:hover{
+    border: 1px solid rgb(248, 255, 251);
+  -webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+transition: 1s ease;
+}
+
+#topic h5{
+    margin-top: 10px;
+    font-size: 24px;
+    line-height: 36px;
+    color: #413960 ;
+    font-family: "Poppins";
+    font-weight: 500;
+}
+#topic h6{
+    margin-top: 5px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #413960 ;
+    font-family: "Poppins";
+    
+}
+#topic .row{
+    margin-top: 50px;
+}
+/* start fo courses */
+#course{
+    margin-top: 50px;
+}
+#course .card {
+    margin: 60px 15px 80px;
+    padding: 25px 20px;
+    border: none;
+    box-shadow: rgb(0 0 0 / 10%) 0px 10px 40px 0px;
+    border-radius: 18px;
+}
+#course .card:hover{
+    -webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+transition: 1s ease;
+}
+#course h1{
+    text-align: center;
+    font-size: 36px;
+    line-height: 54px;
+    color: #413960 ;
+    font-weight: 700;
+    font-family: "Poppins";
+}
+#course h5{
+    font-size: 20px;
+    line-height: 24px;
+    color: #413960 ;
+    font-family: "Poppins";
+}
+#course p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #413960 ;
+    font-family: "Poppins";
+}
+#course .card .card-footer img {
+    width: 24px;
+    height: 24px
+
+
+}
+#course .card .card-footer {
+    border: none;
+    background-color: transparent;
+    padding: 0px;
+}
+#course .card .card-img-top {
+   padding: 20px 10px;
+    filter: sepia(100%);
+    transition-duration: 0.3s;
+}
+
+/* end fo courses */
+
+/* start of Testimonial */
+#Testimonial{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#Testimonial .row{
+    margin-top: 60px;
+}
+#Testimonial h1{
+    text-align: center;
+    font-size: 36px;
+    line-height: 54px;
+    color: #413960 ;
+    font-family: "Poppins";
+    font-weight: 700;
+}
+#Testimonial p{
+    font-size: 16px;
+    line-height: 30px;
+    color: #413960 ;
+    font-family: "Poppins";
+}
+#Testimonial .tstimg{
+    margin-left: 120px;
+    width: 120px;
+    height: 120px;
+}
+
+/* end of Testimonial */
+
+/* start of footer */
+#footer{
+    background: #282531;
+    padding: 70px;
+
+}
+#footer h1{
+    font-size: 16px;
+    line-height: 30px;
+    color: white ;
+    padding-top: 50px;
+    font-family: "Poppins";
+}
+#footer ul{
+    list-style: none;
+    border: none;
+}
+#footer h2{
+    margin-top: 10px;
+    color: white !important;
+    margin-left: 33px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#footer a{
+    color: white !important;
+    font-size: 15px;
+    line-height: 30px;
+    text-decoration: none;
+}
+#footer a:hover{
+    background-image: linear-gradient(
+    -225deg,
+    #413960 0%,
+    #21B573  29%,
+    #21B573  67%,
+    #21B573  100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+}
+
+
+/* end of footer */
